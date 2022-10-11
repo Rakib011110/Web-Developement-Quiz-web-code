@@ -19,7 +19,7 @@ const Home = () => {
 
 
 
-            <Carousel fade className=' p-5 bg-black'>
+            <Carousel fade className=' p-3 bg-black'>
                 <Carousel.Item>
                     <img
                         className="d-block w-100 h-50  img-fluid "
@@ -63,7 +63,7 @@ const Home = () => {
 
 
 
-            <div className='   row row-cols-lg-4 row-cols-md-2 row-cols-sm-1  bg-black mt-5 bg-opacity-10  justify-content-center    quiz  mx-5 p-5 '>
+            <div className='   row row-cols-lg-4 row-cols-md-2 row-cols-sm-1  bg-black mt-5 bg-opacity-  justify-content-center    quiz  mx-5 p-3 '>
 
                 {
                     quizes.data.map(quiz => <Quiz key={quiz.id} quiz={quiz} />)

@@ -29,8 +29,8 @@ const Quiz = ({ quiz }) => {
 
                 </ListGroup>
                 <Card.Body>
-                    <Card > <button onClick={handleNavigate} > {name} </button> </Card>
-                    <Card > <button onClick={handleNavigate} > start Quiz </button>
+                    <Card > <button className=' btn m-1 btn-dark rounded-3' onClick={handleNavigate} > {name} </button> </Card>
+                    <Card > <button className=' btn m-1 btn-dark rounded-3' onClick={handleNavigate} > start Quiz </button>
                     </Card>
 
                 </Card.Body>
