@@ -15,7 +15,7 @@ const Quiz = ({ quiz }) => {
     }
 
     return (
-        <div className=' bg-black p-2' >
+        <div className='  align-items-center container  p-2' >
 
             <Card className='bg-info' style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={logo} />

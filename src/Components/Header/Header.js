@@ -27,7 +27,7 @@ function CollapsibleExample() {
                         </NavDropdown>
                     </Nav>
                     <Nav>
-                        <Nav.Link href="#deets">   Statistics</Nav.Link>
+                        <Nav.Link as={Link} to={"/chart"} href="#deets">Chart</Nav.Link>
                         <Nav.Link eventKey={2} href="#memes">
                             question
                         </Nav.Link>
