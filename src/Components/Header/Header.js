@@ -14,7 +14,7 @@ function CollapsibleExample() {
                         <Nav.Link as={Link} to={'/'} href="#features">Home</Nav.Link>
                         <Nav.Link as={Link} to={"/chart"} href="#deets">Chart</Nav.Link>
 
-                        <Nav.Link eventKey={2} href="#memes">
+                        <Nav.Link as={Link} to={'/question'} eventKey={2} href="#memes">
                             Question
                         </Nav.Link>
                     </Nav>

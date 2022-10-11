@@ -9,6 +9,7 @@ import Blog from './Components/Blog/Blog';
 import StartQuiz from './Components/StartQuiz/StartQuiz';
 import Chart from './Chart/Chart';
 import ErrorrPage from './Components/ErrorPage/ErrorrPage';
+import Qustions from './Components/Qustions/Qustions';
 
 
 
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
 
       {
         path: "*", element: <ErrorrPage />
+      },
+      {
+        path: "/question",
+        element: <Qustions />
       }
 
 
