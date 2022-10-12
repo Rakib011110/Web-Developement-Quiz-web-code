@@ -40,7 +40,7 @@ const Home = () => {
 
                     <Carousel.Caption>
                         <h3 className=' text-info'>Web-Developement-Quiz</h3>
-                        <p>Increase your skills by participating in Web-Development-Quiz  </p>
+                        <p className=' '>Increase your skills by participating in Web-Development-Quiz  </p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -52,7 +52,7 @@ const Home = () => {
 
                     <Carousel.Caption className=' sm-d-sm-none ' >
                         <h3 className=' text-info'>Web-Developement-Quiz</h3>
-                        <p>Increase your skills by participating in Web-Development-Quiz  </p>
+                        <p className=' '>Increase your skills by participating in Web-Development-Quiz  </p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
